@@ -5,9 +5,6 @@ from tensorflow.keras.models import load_model
 import pickle
 
 
-with open('le_2.pkl','rb') as file:
-    label = pickle.load(file)
-
 with open('token_2.pkl','rb') as file:
     token_word = pickle.load(file)
 
